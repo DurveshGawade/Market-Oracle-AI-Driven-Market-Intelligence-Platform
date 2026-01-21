@@ -97,7 +97,8 @@ Market Oracle is a production-grade AI platform that transforms raw LLM predicti
 - Downloadable Summary: Timestamped HTML executive report with all KPIs
 
 
-                                                                                           **Project Gallery**
+
+  **Project Gallery**
   
 <img width="1122" height="588" alt="Screenshot 2026-01-21 035321" src="https://github.com/user-attachments/assets/6f38ddd3-875d-481b-8b0a-0bfc3e5fab00" />
 <img width="1820" height="909" alt="Screenshot 2026-01-21 020835" src="https://github.com/user-attachments/assets/1e000e47-42e8-4990-97da-7c155b1639d5" />
