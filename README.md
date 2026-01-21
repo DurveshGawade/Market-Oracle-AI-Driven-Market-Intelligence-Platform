@@ -5,6 +5,10 @@ An AI-driven Intelligence platform built in Hex that transforms LLM prediction m
 Try it out
 # Market-Oracle- https://app.hex.tech/virtual-hackathon/app/Market-Oracle-AI-Driven-Market-Intelligence-Platform-032BmzxJmZmIiNt65KZOB0/latest 
 
+
+# Demo Video - https://www.youtube.com/watch?v=7Es3_PAZcMA 
+
+
 # 📖 About Market Oracle
 🌟 Inspiration
 The inspiration for Market Oracle emerged from a fascinating intersection: the explosive growth of AI prediction markets and the inherent complexity of analyzing them at scale. As LLM prediction markets on platforms like Kalshi became increasingly popular, we noticed traders were drowning in data—thousands of records, complex price movements, and no unified intelligence layer to make sense of it all. I asked Myself: What if I could build a self-evolving AI system that doesn't just analyze markets, but learns which analysis methods work best in real-time? This core question drove the entire architecture—a meta-learning system where five AI models compete continuously, and the platform automatically selects the champion based on live performance metrics.
@@ -37,62 +41,64 @@ Market Oracle is a production-grade AI platform that transforms raw LLM predicti
 
 # 1. 🏠 Home Portal
 
--Project overview with technical stack visualization
--Key features showcase and business value proposition
--Platform architecture documentation
--Navigation hub to all modules
+- Project overview with technical stack visualization
+- Key features showcase and business value proposition
+- Platform architecture documentation
+- Navigation hub to all modules
 
 # 2. 📊 Executive Dashboard
 
--Real-Time KPIs: Total volume, average price, active markets, volatility—all reactive to filters
--Interactive Filters: Date range, market, regime, market type cascade through 15+ charts
--Explore Visualizations: Volume trends (line), top markets (bar), volume vs price (scatter), volatility tracking (line), market leaderboard (table), regime distribution (pie), market type breakdown (4-subplot custom viz)
--Market Type Classification: 🔥 HOT (17.3%), ⚖️ NORMAL (29.9%), 📍 STABLE (52.8%) with custom algorithms
+- Real-Time KPIs: Total volume, average price, active markets, volatility—all reactive to filters
+- Interactive Filters: Date range, market, regime, market type cascade through 15+ charts
+- Explore Visualizations: Volume trends (line), top markets (bar), volume vs price (scatter), volatility tracking (line), market leaderboard (table), regime distribution (pie), market type breakdown (4-subplot custom viz)
+- Market Type Classification: 🔥 HOT (17.3%), ⚖️ NORMAL (29.9%), 📍 STABLE (52.8%) with custom algorithms
 
 # 3. 🎯 AI Predictions & Forecasts
 
--Model Ensemble: Random Forest, XGBoost, Ridge, Lasso, Neural Network train in parallel (5x speedup via threading)
--Champion Auto-Selection: Real-time R² ranking automatically picks best performer (current: RF @ 94.6% accuracy)
--Trading Signals: STRONG BUY 🚀🚀, BUY 🚀, HOLD 🤝, SELL 📉, STRONG SELL 📉📉 with expected returns
--Downloadable Reports: CSV signal exports + HTML model performance reports with timestamps 20+ Diagnostic Charts: Residual plots, confidence distributions, model comparison radar, winner heatmap
+- Model Ensemble: Random Forest, XGBoost, Ridge, Lasso, Neural Network train in parallel (5x speedup via threading)
+- Champion Auto-Selection: Real-time R² ranking automatically picks best performer (current: RF @ 94.6% accuracy)
+- Trading Signals: STRONG BUY 🚀🚀, BUY 🚀, HOLD 🤝, SELL 📉, STRONG SELL 📉📉 with expected returns
+- Downloadable Reports: CSV signal exports + HTML model performance reports with timestamps 20+ Diagnostic Charts: Residual plots, confidence distributions, model comparison radar, winner heatmap
 
 # 4. 🗂️ Semantic Layer Visualizations
 
--Governed Explore Charts: Built on dimensional model (dim_market, dim_time, fact_table)
--Metric Consistency: All charts reference same curated definitions (no "two analysts, three numbers" problem)
--Coverage: Volume trends, open interest growth, market share pies, day-of-week patterns, liquidity analysis, stacked area evolution
--Zero SQL Required: Analysts drag-and-drop fields with guaranteed accuracy
+- Governed Explore Charts: Built on dimensional model (dim_market, dim_time, fact_table)
+- Metric Consistency: All charts reference same curated definitions (no "two analysts, three numbers" problem)
+- Coverage: Volume trends, open interest growth, market share pies, day-of-week patterns, liquidity analysis, stacked area evolution
+- Zero SQL Required: Analysts drag-and-drop fields with guaranteed accuracy
 
 # 5. ⚠️ Anomaly Detection
 
--Isolation Forest Algorithm: Detects 87 anomalies (7.1% of data) with -1 to 0 scoring
--Anomaly Types: Volume Spike, Price Shock, High Volatility, Wide Spread—each with domain-specific thresholds
--Interactive Timeline: Scatter plot (timestamp vs score) colored by type with slider filters
--Real-Time Risk: Identify execution outliers and market shocks as they occur
+- Isolation Forest Algorithm: Detects 87 anomalies (7.1% of data) with -1 to 0 scoring
+- Anomaly Types: Volume Spike, Price Shock, High Volatility, Wide Spread—each with domain-specific thresholds
+- Interactive Timeline: Scatter plot (timestamp vs score) colored by type with slider filters
+- Real-Time Risk: Identify execution outliers and market shocks as they occur
 
 # 6. 📈 Market Quality & Performance
 
--Composite Quality Score: 0-100 rating = 33% efficiency + 33% spread + 33% liquidity
--Quadrant Analysis: Efficiency vs liquidity scatter identifies Premium/Informed/Momentum/Avoid markets
--Top 10 Rankings: Highest quality markets for institutional execution
--Regime Breakdown: Volume distribution across HOT/NORMAL/STABLE with quality overlays
+- Composite Quality Score: 0-100 rating = 33% efficiency + 33% spread + 33% liquidity
+- Quadrant Analysis: Efficiency vs liquidity scatter identifies Premium/Informed/Momentum/Avoid markets
+- Top 10 Rankings: Highest quality markets for institutional execution
+- Regime Breakdown: Volume distribution across HOT/NORMAL/STABLE with quality overlays
 
 # 7. 🧵 Threading System Architecture
 
--Worker Threads: 8 market processors + 5 model trainers + 3 async workers
--5x Performance Gain: Parallel model training (4 sec) vs sequential (20 sec)
--Live Monitoring: Speedup comparison, thread utilization gauge, throughput metrics (195+ markets/sec)
--Scalability Proof: Handles 1,222+ markets in real-time with zero bottlenecks
+- Worker Threads: 8 market processors + 5 model trainers + 3 async workers
+- 5x Performance Gain: Parallel model training (4 sec) vs sequential (20 sec)
+- Live Monitoring: Speedup comparison, thread utilization gauge, throughput metrics (195+ markets/sec)
+- Scalability Proof: Handles 1,222+ markets in real-time with zero bottlenecks
 
 # 8. 📋 Executive Summary
 
--Cross-Platform KPIs: Aggregates metrics from all 7 modules into unified health dashboard
--Market Type Metrics: HOT/NORMAL/STABLE counts with comparison arrows
--Platform Health Gauges: AI accuracy (94.6%), quality score (avg 72.4), anomaly rate (7.1%), speedup (5x)
--🏆 LLM Dominance Forecast: 5-year prediction with medal rankings—Google leads now (51.6%), but Anthropic (+37.7%) and DeepSeek (+31.0%) show explosive growth momentum
--Downloadable Summary: Timestamped HTML executive report with all KPIs
+- Cross-Platform KPIs: Aggregates metrics from all 7 modules into unified health dashboard
+- Market Type Metrics: HOT/NORMAL/STABLE counts with comparison arrows
+- Platform Health Gauges: AI accuracy (94.6%), quality score (avg 72.4), anomaly rate (7.1%), speedup (5x)
+- 🏆 LLM Dominance Forecast: 5-year prediction with medal rankings—Google leads now (51.6%), but Anthropic (+37.7%) and DeepSeek (+31.0%) show explosive growth momentum
+- Downloadable Summary: Timestamped HTML executive report with all KPIs
 
 
+                                                                                           **Project Gallery**
+  
 <img width="1122" height="588" alt="Screenshot 2026-01-21 035321" src="https://github.com/user-attachments/assets/6f38ddd3-875d-481b-8b0a-0bfc3e5fab00" />
 <img width="1820" height="909" alt="Screenshot 2026-01-21 020835" src="https://github.com/user-attachments/assets/1e000e47-42e8-4990-97da-7c155b1639d5" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-21 021348" src="https://github.com/user-attachments/assets/5d7e5649-f9ed-4a5f-8c5e-93049c240644" />
