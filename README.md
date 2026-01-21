@@ -1,19 +1,19 @@
 # Market-Oracle-AI-Driven-Market-Intelligence-Platform
-An AI-driven Intelligence platform built in Hex that transforms LLM prediction market data into real-time trading intelligence using multi-model learning, anomaly detection, and interactive analytics.
+An AI-driven Intelligence platform built **entierly in Hex** that transforms LLM prediction market data into real-time trading intelligence using multi-model learning, anomaly detection, and interactive analytics.
 
 
 Try it out
-# Market-Oracle- https://app.hex.tech/virtual-hackathon/app/Market-Oracle-AI-Driven-Market-Intelligence-Platform-032BmzxJmZmIiNt65KZOB0/latest 
+# Market-Oracle- *https://app.hex.tech/virtual-hackathon/app/Market-Oracle-AI-Driven-Market-Intelligence-Platform-032BmzxJmZmIiNt65KZOB0/latest* 
 
 
-# Demo Video - https://www.youtube.com/watch?v=7Es3_PAZcMA 
+# Demo Video - *https://www.youtube.com/watch?v=7Es3_PAZcMA* 
 
 
 # 📖 About Market Oracle
 🌟 Inspiration
 The inspiration for Market Oracle emerged from a fascinating intersection: the explosive growth of AI prediction markets and the inherent complexity of analyzing them at scale. As LLM prediction markets on platforms like Kalshi became increasingly popular, we noticed traders were drowning in data—thousands of records, complex price movements, and no unified intelligence layer to make sense of it all. I asked Myself: What if I could build a self-evolving AI system that doesn't just analyze markets, but learns which analysis methods work best in real-time? This core question drove the entire architecture—a meta-learning system where five AI models compete continuously, and the platform automatically selects the champion based on live performance metrics.
 
-The second inspiration came from a critical realization: traditional analytics platforms force an impossible choice. Either you build in BI tools (beautiful dashboards, zero flexibility) or you build in notebooks (infinite flexibility, terrible UX). Data analysts needed interactive, governed dashboards. Data scientists needed custom Python ML pipelines. Business users needed one-click filters. Engineers needed SQL performance. No single platform could deliver all four—until Hex.
+The second inspiration came from a critical realization: traditional analytics platforms force an impossible choice. Either you build in BI tools (beautiful dashboards, zero flexibility) or you build in notebooks (infinite flexibility, terrible UX). Data analysts needed interactive, governed dashboards. Data scientists needed custom Python ML pipelines. Business users needed one-click filters. Engineers needed SQL performance. No single platform could deliver all four—**until Hex**.
 
 The Platform Hybrid That Shouldn't Exist Why This is Only Possible in Hex
 
