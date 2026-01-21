@@ -1,7 +1,11 @@
 # Market-Oracle-AI-Driven-Market-Intelligence-Platform
 An AI-driven Intelligence platform built in Hex that transforms LLM prediction market data into real-time trading intelligence using multi-model learning, anomaly detection, and interactive analytics.
 
-📖 About Market Oracle
+
+Try it out
+# Market-Oracle- https://app.hex.tech/virtual-hackathon/app/Market-Oracle-AI-Driven-Market-Intelligence-Platform-032BmzxJmZmIiNt65KZOB0/latest 
+
+# 📖 About Market Oracle
 🌟 Inspiration
 The inspiration for Market Oracle emerged from a fascinating intersection: the explosive growth of AI prediction markets and the inherent complexity of analyzing them at scale. As LLM prediction markets on platforms like Kalshi became increasingly popular, we noticed traders were drowning in data—thousands of records, complex price movements, and no unified intelligence layer to make sense of it all. I asked Myself: What if I could build a self-evolving AI system that doesn't just analyze markets, but learns which analysis methods work best in real-time? This core question drove the entire architecture—a meta-learning system where five AI models compete continuously, and the platform automatically selects the champion based on live performance metrics.
 
@@ -9,76 +13,84 @@ The second inspiration came from a critical realization: traditional analytics p
 
 The Platform Hybrid That Shouldn't Exist Why This is Only Possible in Hex
 
-Market Oracle leverages Hex's unique multi-modal architecture to create something impossible elsewhere:
+# Market Oracle leverages Hex's unique multi-modal architecture to create something impossible elsewhere:
 
-Unified Semantic Layer + Custom Analytics
-No-Code + Pro-Code in a Single Workflow
-Reactive Input Parameters Across Languages
-Production-Grade Interactive UI Without Front-End Code
-Multi-Threaded Execution Meets Notebook Simplicity
-Semantic SQL + Warehouses + Dataframes in One Graph
-Downloadable Reports From Live Analysis
-Market Oracle is simultaneously:
+ - Unified Semantic Layer + Custom Analytics
+ - No-Code + Pro-Code in a Single Workflow
+ - Reactive Input Parameters Across Languages
+ - Production-Grade Interactive UI Without Front-End Code
+ - Multi-Threaded Execution Meets Notebook Simplicity
+ - Semantic SQL + Warehouses + Dataframes in One Graph
+ - Downloadable Reports From Live Analysis
 
-BI dashboard (12 semantic Explore charts, 4 input filters, professional UI)
-data science notebook (5-model ensemble, Isolation Forest, threading)
-data engineering pipeline (Snowflake → cleaning → semantic modeling → ML features)
-production application (8-tab app mode, downloadable reports, real-time reactivity)
-Each of these typically requires a separate tool. Hex's architecture—where SQL cells output dataframes that Python cells transform, which Explore cells visualize, filtered by Input cells, all reactive across 160+ cells—creates a unified analytics stack that eliminates 4+ tools and the integration tax between them.
+# Market Oracle is simultaneously:
+
+ - BI dashboard (12 semantic Explore charts, 4 input filters, professional UI)
+ - data science notebook (5-model ensemble, Isolation Forest, threading)
+ - data engineering pipeline (Snowflake → cleaning → semantic modeling → ML features)
+ - production application (8-tab app mode, downloadable reports, real-time reactivity)
+ - Each of these typically requires a separate tool. Hex's architecture—where SQL cells output dataframes that Python cells transform, which Explore cells visualize, filtered by Input cells, all reactive across   - 160+ cells—creates a unified analytics stack that eliminates 4+ tools and the integration tax between them.
 
 Market Oracle is a production-grade AI platform that transforms raw LLM prediction market data (Kalshi) into actionable trading intelligence through an 8-tab interactive application:
 
-Core Capabilities
+# Core Capabilities
 
-1. 🏠 Home Portal
+# 1. 🏠 Home Portal
 
-Project overview with technical stack visualization
-Key features showcase and business value proposition
-Platform architecture documentation
-Navigation hub to all modules
-2. 📊 Executive Dashboard
+-Project overview with technical stack visualization
+-Key features showcase and business value proposition
+-Platform architecture documentation
+-Navigation hub to all modules
 
-Real-Time KPIs: Total volume, average price, active markets, volatility—all reactive to filters
-Interactive Filters: Date range, market, regime, market type cascade through 15+ charts
-Explore Visualizations: Volume trends (line), top markets (bar), volume vs price (scatter), volatility tracking (line), market leaderboard (table), regime distribution (pie), market type breakdown (4-subplot custom viz)
-Market Type Classification: 🔥 HOT (17.3%), ⚖️ NORMAL (29.9%), 📍 STABLE (52.8%) with custom algorithms
-3. 🎯 AI Predictions & Forecasts
+# 2. 📊 Executive Dashboard
 
-Model Ensemble: Random Forest, XGBoost, Ridge, Lasso, Neural Network train in parallel (5x speedup via threading)
-Champion Auto-Selection: Real-time R² ranking automatically picks best performer (current: RF @ 94.6% accuracy)
-Trading Signals: STRONG BUY 🚀🚀, BUY 🚀, HOLD 🤝, SELL 📉, STRONG SELL 📉📉 with expected returns
-Downloadable Reports: CSV signal exports + HTML model performance reports with timestamps 20+ Diagnostic Charts: Residual plots, confidence distributions, model comparison radar, winner heatmap
-4. 🗂️ Semantic Layer Visualizations
+-Real-Time KPIs: Total volume, average price, active markets, volatility—all reactive to filters
+-Interactive Filters: Date range, market, regime, market type cascade through 15+ charts
+-Explore Visualizations: Volume trends (line), top markets (bar), volume vs price (scatter), volatility tracking (line), market leaderboard (table), regime distribution (pie), market type breakdown (4-subplot custom viz)
+-Market Type Classification: 🔥 HOT (17.3%), ⚖️ NORMAL (29.9%), 📍 STABLE (52.8%) with custom algorithms
 
-Governed Explore Charts: Built on dimensional model (dim_market, dim_time, fact_table)
-Metric Consistency: All charts reference same curated definitions (no "two analysts, three numbers" problem)
-Coverage: Volume trends, open interest growth, market share pies, day-of-week patterns, liquidity analysis, stacked area evolution
-Zero SQL Required: Analysts drag-and-drop fields with guaranteed accuracy
-5. ⚠️ Anomaly Detection
+# 3. 🎯 AI Predictions & Forecasts
 
-Isolation Forest Algorithm: Detects 87 anomalies (7.1% of data) with -1 to 0 scoring
-Anomaly Types: Volume Spike, Price Shock, High Volatility, Wide Spread—each with domain-specific thresholds
-Interactive Timeline: Scatter plot (timestamp vs score) colored by type with slider filters
-Real-Time Risk: Identify execution outliers and market shocks as they occur
-6. 📈 Market Quality & Performance
+-Model Ensemble: Random Forest, XGBoost, Ridge, Lasso, Neural Network train in parallel (5x speedup via threading)
+-Champion Auto-Selection: Real-time R² ranking automatically picks best performer (current: RF @ 94.6% accuracy)
+-Trading Signals: STRONG BUY 🚀🚀, BUY 🚀, HOLD 🤝, SELL 📉, STRONG SELL 📉📉 with expected returns
+-Downloadable Reports: CSV signal exports + HTML model performance reports with timestamps 20+ Diagnostic Charts: Residual plots, confidence distributions, model comparison radar, winner heatmap
 
-Composite Quality Score: 0-100 rating = 33% efficiency + 33% spread + 33% liquidity
-Quadrant Analysis: Efficiency vs liquidity scatter identifies Premium/Informed/Momentum/Avoid markets
-Top 10 Rankings: Highest quality markets for institutional execution
-Regime Breakdown: Volume distribution across HOT/NORMAL/STABLE with quality overlays
-7. 🧵 Threading System Architecture
+# 4. 🗂️ Semantic Layer Visualizations
 
-Worker Threads: 8 market processors + 5 model trainers + 3 async workers
-5x Performance Gain: Parallel model training (4 sec) vs sequential (20 sec)
-Live Monitoring: Speedup comparison, thread utilization gauge, throughput metrics (195+ markets/sec)
-Scalability Proof: Handles 1,222+ markets in real-time with zero bottlenecks
-8. 📋 Executive Summary
+-Governed Explore Charts: Built on dimensional model (dim_market, dim_time, fact_table)
+-Metric Consistency: All charts reference same curated definitions (no "two analysts, three numbers" problem)
+-Coverage: Volume trends, open interest growth, market share pies, day-of-week patterns, liquidity analysis, stacked area evolution
+-Zero SQL Required: Analysts drag-and-drop fields with guaranteed accuracy
 
-Cross-Platform KPIs: Aggregates metrics from all 7 modules into unified health dashboard
-Market Type Metrics: HOT/NORMAL/STABLE counts with comparison arrows
-Platform Health Gauges: AI accuracy (94.6%), quality score (avg 72.4), anomaly rate (7.1%), speedup (5x)
-🏆 LLM Dominance Forecast: 5-year prediction with medal rankings—Google leads now (51.6%), but Anthropic (+37.7%) and DeepSeek (+31.0%) show explosive growth momentum
-Downloadable Summary: Timestamped HTML executive report with all KPIs
+# 5. ⚠️ Anomaly Detection
+
+-Isolation Forest Algorithm: Detects 87 anomalies (7.1% of data) with -1 to 0 scoring
+-Anomaly Types: Volume Spike, Price Shock, High Volatility, Wide Spread—each with domain-specific thresholds
+-Interactive Timeline: Scatter plot (timestamp vs score) colored by type with slider filters
+-Real-Time Risk: Identify execution outliers and market shocks as they occur
+
+# 6. 📈 Market Quality & Performance
+
+-Composite Quality Score: 0-100 rating = 33% efficiency + 33% spread + 33% liquidity
+-Quadrant Analysis: Efficiency vs liquidity scatter identifies Premium/Informed/Momentum/Avoid markets
+-Top 10 Rankings: Highest quality markets for institutional execution
+-Regime Breakdown: Volume distribution across HOT/NORMAL/STABLE with quality overlays
+
+# 7. 🧵 Threading System Architecture
+
+-Worker Threads: 8 market processors + 5 model trainers + 3 async workers
+-5x Performance Gain: Parallel model training (4 sec) vs sequential (20 sec)
+-Live Monitoring: Speedup comparison, thread utilization gauge, throughput metrics (195+ markets/sec)
+-Scalability Proof: Handles 1,222+ markets in real-time with zero bottlenecks
+
+# 8. 📋 Executive Summary
+
+-Cross-Platform KPIs: Aggregates metrics from all 7 modules into unified health dashboard
+-Market Type Metrics: HOT/NORMAL/STABLE counts with comparison arrows
+-Platform Health Gauges: AI accuracy (94.6%), quality score (avg 72.4), anomaly rate (7.1%), speedup (5x)
+-🏆 LLM Dominance Forecast: 5-year prediction with medal rankings—Google leads now (51.6%), but Anthropic (+37.7%) and DeepSeek (+31.0%) show explosive growth momentum
+-Downloadable Summary: Timestamped HTML executive report with all KPIs
 
 
 <img width="1122" height="588" alt="Screenshot 2026-01-21 035321" src="https://github.com/user-attachments/assets/6f38ddd3-875d-481b-8b0a-0bfc3e5fab00" />
