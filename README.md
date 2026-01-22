@@ -81,14 +81,24 @@ Market Oracle is a production-grade AI platform that transforms raw LLM predicti
 - Top 10 Rankings: Highest quality markets for institutional execution
 - Regime Breakdown: Volume distribution across HOT/NORMAL/STABLE with quality overlays
 
-# 7. 🧵 Threading System Architecture
+
+# 7. 🤖 AI Assistant (Thread-Powered Conversational Analytics)
+- Hex Threads Integration: Dedicated persistent thread connected to live Market Oracle dataframes, semantic metrics, ML predictions, anomalies, and trading signals
+- Natural Language Queries: Ask complex market questions in plain English (opportunities, risk, performance, liquidity, regimes, forecasts)
+- Context Preservation: Multi-turn conversations retain filters, referenced markets, model selections, and assumptions across questions
+- Reproducible Analysis: Every query, dataset, chart, and result is stored in the thread for auditability and review
+- Intelligent Outputs: Structured responses with tables, charts, statistical summaries, confidence scores, and actionable trading recommendations
+- One-Click Access: In-app button opens the dedicated AI thread in a new tab with persistent history and live data binding
+- Scalable Usage: Supports concurrent analytical sessions via isolated threads without impacting dashboard performance
+
+# 8. 🧵 Threading System Architecture
 
 - Worker Threads: 8 market processors + 5 model trainers + 3 async workers
 - 5x Performance Gain: Parallel model training (4 sec) vs sequential (20 sec)
 - Live Monitoring: Speedup comparison, thread utilization gauge, throughput metrics (195+ markets/sec)
 - Scalability Proof: Handles 1,222+ markets in real-time with zero bottlenecks
 
-# 8. 📋 Executive Summary
+# 9. 📋 Executive Summary
 
 - Cross-Platform KPIs: Aggregates metrics from all 7 modules into unified health dashboard
 - Market Type Metrics: HOT/NORMAL/STABLE counts with comparison arrows
